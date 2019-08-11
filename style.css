@@ -64,7 +64,7 @@ body {
 
 .home1 {
     flex: 1;
-    background: #384355 font-size: 16px;
+    font-size: 16px;
     font-family: 'roboto', sans-serif;
     margin-right: 25px;
 }
@@ -218,8 +218,7 @@ nav {
     nav li {
         text-align: center;
         width: 100%;
-        padding: 15px 0;
-        margin 0;
+        padding: 15px;
     }
 
     .cvcontainer {
