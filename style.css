@@ -16,10 +16,9 @@ body {
 }
 
 .cvcontainer {
-    margin-top: 165px;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
     display: flex;
-    background: yellow;
     padding: 50px;
     box-sizing: border-box;
     flex-direction: row;
@@ -27,26 +26,33 @@ body {
 
 .cv1 {
     flex: 1;
-    background: red;
+    background: #384355;
     padding: 30px;
     font-size: 16px;
     font-family: 'roboto', sans-serif;
+    padding: 25px;
+    margin-right: 25px;
 }
 
 .cv2 {
     flex: 1;
-    background: blue;
+    background: #384355;
     padding: 30px;
     font-size: 16px;
     font-family: 'roboto', sans-serif;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .cv3 {
     flex: 1;
-    background: green;
+    background: #384355;
     padding: 30px;
     font-size: 16px;
     font-family: 'roboto', sans-serif;
+    padding: 25px;
+    margin-left: 25px;
 }
 
 
@@ -150,4 +156,59 @@ nav {
         flex-direction: column;
     }
 
+    .cv1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .cv2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 25px;
+    }
+
+    .cv3 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 25px;
+    }
+
+
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    color: white
+}
+
+h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    color: white
+}
+
+h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    margin-top: 180px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.cvimage {
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+#cvlink {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px;
 }
