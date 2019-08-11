@@ -1,5 +1,5 @@
 header {
-    background: cyan;
+    background: #2a3340;
     width: 100%;
     height: 150px;
     position: fixed;
@@ -11,11 +11,16 @@ header {
     display: flex;
 }
 
+body {
+    background-color: #191e26;
+}
+
 .name {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 80px;
     flex: 1;
     margin-left: 35px;
+    color: white;
 }
 
 .subtitle {
@@ -60,58 +65,6 @@ nav {
     height: 32px;
 }
 
-.homecontainer {
-    max-width: 1500px;
-    margin: 0 auto;
-
-    display: flex;
-    background: yellow;
-    box-sizing: border-box;
-    flex-direction: row;
-
-    margin-top: 250px;
-}
-
-.pichovertext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 65px;
-    color: white;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    font-weight: bold;
-}
-
-.webcontainer {
-    flex: 1;
-    background: red;
-    padding: 30px;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.animationcontainer {
-    flex: 1;
-    background: blue;
-    padding: 30px;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.uxcontainer {
-    flex: 1;
-    background: green;
-    padding: 30px;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 @media screen and (max-width: 800px) {
     .homecontainer {
         flex-direction: column;
@@ -125,6 +78,7 @@ nav {
     .name {
         font-size: 40px;
         margin-left: 10px;
+        margin-top: 40px;
     }
 
     .subtitle {
@@ -137,6 +91,7 @@ nav {
 
     #burgericon {
         display: inline-block;
+        margin-top: 40px;
     }
 
     nav ul,
