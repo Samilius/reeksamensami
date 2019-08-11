@@ -65,7 +65,7 @@ nav {
     height: 32px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 805px) {
     .homecontainer {
         flex-direction: column;
         margin-top: 85px;
@@ -99,7 +99,7 @@ nav {
         display: none;
         position: absolute;
         padding: 20px;
-        background: pink;
+        background: #f62459;
         right: 10px;
         top: 65px;
         width: 35%;
