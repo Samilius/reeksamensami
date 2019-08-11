@@ -1,5 +1,5 @@
 header {
-    background: #2a3340;
+    background: #384355;
     width: 100%;
     height: 150px;
     position: fixed;
@@ -14,6 +14,44 @@ header {
 body {
     background-color: #191e26;
 }
+
+.cvcontainer {
+    margin-top: 165px;
+    width: 100%;
+    display: flex;
+    background: yellow;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.cv1 {
+    flex: 1;
+    background: red;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+
+.cv2 {
+    flex: 1;
+    background: blue;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+
+.cv3 {
+    flex: 1;
+    background: green;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+
+
+
+
 
 .name {
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -66,6 +104,7 @@ nav {
 }
 
 @media screen and (max-width: 805px) {
+
     .name {
         font-size: 40px;
         margin-left: 10px;
@@ -107,10 +146,8 @@ nav {
         margin 0;
     }
 
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-    .pichovertext {
-        font-size: 35px;
+    .cvcontainer {
+        flex-direction: column;
     }
+
 }
