@@ -51,6 +51,39 @@ body {
 
 
 
+.homecontainer {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+
+
+.home1 {
+    flex: 1;
+    background: #384355 font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    margin-right: 25px;
+}
+
+
+
+
+.home2 {
+    flex: 1;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+
+
+
 
 .cvcontainer {
     margin: 0 auto;
@@ -225,6 +258,11 @@ nav {
         margin-right: 0px;
         margin-top: 25px;
     }
+
+    .homecontainer {
+        flex-direction: column;
+    }
+
 }
 
 h1 {
@@ -255,6 +293,13 @@ h5 {
     text-align: center;
 }
 
+h6 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+
 p {
     font-family: 'roboto', sans-serif;
     font-size: 16px;
@@ -264,6 +309,11 @@ p {
 .cvimage {
     border: 2px solid white;
     border-radius: 4px;
+}
+
+.ppimage {
+    border: 5px solid white;
+    border-radius: 250px;
 }
 
 #cvlink {
