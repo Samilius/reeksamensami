@@ -58,6 +58,7 @@ body {
     padding: 50px;
     box-sizing: border-box;
     flex-direction: row;
+    margin-top: 155px;
 }
 
 
@@ -313,10 +314,4 @@ p {
 .ppimage {
     border: 5px solid white;
     border-radius: 250px;
-}
-
-#cvlink {
-    font-size: 20px;
-    border: 2px solid white;
-    padding: 5px;
 }
